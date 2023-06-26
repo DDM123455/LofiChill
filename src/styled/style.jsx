@@ -46,6 +46,7 @@ export const MixerDiv = styled.div`
   background-color: hsla(0, 0%, 7%, 0.75);
   width: 357px;
   height: auto;
+
   position: absolute;
   z-index: 9999999;
   right: 500px;
@@ -54,15 +55,15 @@ export const MixerDiv = styled.div`
   overflow-y: auto;
   border-radius: 12px;
   margin-top: 90px;
-  img {
-    aspect-ratio: 16/9 !important;
-    border-radius: 16px;
-    /* height: 190px; */
-    object-fit: cover;
-    width: 318px;
-    margin-bottom: 20px;
+  bottom: 20px;
+  .musicVo {
+    background-color: hsla(0, 0%, 100%, 0.05);
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+    border-radius: 8px;
+    margin: 2px 12px;
   }
 `;
+
 export const Text = styled.p`
   color: white;
   font-size: 15px;

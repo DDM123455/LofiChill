@@ -284,7 +284,12 @@ function App() {
           />
         </video>
       </div>
-      <LeftNav data={backroundMD} handleBG={handleBG} />
+      <LeftNav
+        data={backroundMD}
+        handleBG={handleBG}
+        handleVolumeChange={handleVolumeChange}
+        volume={volume}
+      />
 
       <div className="content">
         <div
